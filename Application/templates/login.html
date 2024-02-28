@@ -1,0 +1,9 @@
+Hey There login here:
+<form action="login" method="post">
+        {% csrf_token %}
+        Username:
+        <input type="text" name="username">
+        Password:
+        <input type="text" name="password">
+        <input type="submit" value="Login to account">
+</form>
